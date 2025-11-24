@@ -8,8 +8,6 @@ It provides a clean **corporate-style** view of:
 
 This dashboard is designed so you can easily extend it with **PivotTables** and **Slicers** directly inside Excel.
 
----
-
 ## 🧾 Files in This Repository
 
 - `sales_data.csv`  
@@ -24,8 +22,6 @@ This dashboard is designed so you can easily extend it with **PivotTables** and 
   - **Dashboard** sheet with KPI cards and charts
 
 > You can upload these files directly to GitHub along with this README.
-
----
 
 ## 📊 Dashboard Features
 
@@ -51,8 +47,6 @@ These are displayed in styled “cards” at the top of the Dashboard with consi
 - **Product Category Sales (Bar Chart)**  
   Shows contribution by product category.
 
----
-
 ### 2. Data Sheet
 
 - All records loaded into an Excel **Table** (`SalesData`).
@@ -62,8 +56,6 @@ These are displayed in styled “cards” at the top of the Dashboard with consi
   - `Profit` (color scale)
 
 This sheet is the **source** for any PivotTables and Slicers you create in Excel.
-
----
 
 ### 3. Summary Sheets
 
@@ -81,8 +73,6 @@ This sheet is the **source** for any PivotTables and Slicers you create in Excel
 
 These can be used directly for additional charts or PivotTables.
 
----
-
 ## 🔧 How to Use the Dashboard
 
 ### 1. Open the Dashboard
@@ -91,8 +81,6 @@ These can be used directly for additional charts or PivotTables.
 2. Open it in **Microsoft Excel** (desktop version recommended).
 
 You’ll land on the **Dashboard** sheet. Use it for a high-level overview.
-
----
 
 ### 2. Create True PivotTables (Optional but Recommended)
 
@@ -119,8 +107,6 @@ You can build your own PivotTables from the `Data` sheet:
 - Rows: `Product_Category`  
 - Values: `Sales_Amount`  
 
----
-
 ### 3. Add Slicers for Interactivity
 
 1. Click inside a PivotTable.
@@ -134,8 +120,6 @@ You can build your own PivotTables from the `Data` sheet:
 
 Now you can filter the entire view interactively.
 
----
-
 ## 🔁 Updating the Data
 
 If you have new sales data:
@@ -144,8 +128,6 @@ If you have new sales data:
 2. In `Sales_Dashboard_Advanced.xlsx`, add new rows **below** the existing `SalesData` table in the **Data** sheet.
 3. Right-click on any PivotTable → **Refresh**.
 4. Charts and PivotTables update automatically.
-
----
 
 ## 🧮 Under the Hood (Logic)
 
@@ -156,8 +138,6 @@ If you have new sales data:
   \]
 - KPIs on the Dashboard use aggregated values from the **Data** table.
 
----
-
 ## 🚀 Future Enhancements (Ideas)
 
 You can extend this project by:
@@ -166,8 +146,6 @@ You can extend this project by:
 - Creating **Region-specific** or **Product-specific** sub-dashboards.
 - Adding **timelines** for date-based filtering.
 - Integrating with Python/Power Query to auto-refresh data from external sources.
-
----
 
 ## 📄 License
 
